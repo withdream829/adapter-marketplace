@@ -1,0 +1,88 @@
+{
+  "baseModels": [
+    {
+      "_id": "openllama-3b-v2-1",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "openllama-3b-v2-2",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "openllama-3b-v2-3",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "openllama-3b-v2-4",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "openllama-3b-v2-5",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "openllama-3b-v2-6",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "openllama-3b-v2-7",
+      "name": "OpenLLaMA-3b-v2"
+    },
+    {
+      "_id": "openllama-3b-v2-8",
+      "name": "OpenLLaMA-3b-v2"
+    }
+  ],
+  "methods": [
+    {
+      "_id": "lora",
+      "name": "LoRA"
+    },
+    {
+      "_id": "qlora",
+      "name": "QLoRA"
+    },
+    {
+      "_id": "lora+",
+      "name": "LoRA+"
+    },
+    {
+      "_id": "vera",
+      "name": "VeRA"
+    },
+    {
+      "_id": "lora_fa",
+      "name": "LoRA-FA"
+    },
+    {
+      "_id": "adalora",
+      "name": "AdaLoRA"
+    },
+    {
+      "_id": "dora",
+      "name": "DoRA"
+    },
+    {
+      "_id": "delta_lora",
+      "name": "Delta-LoRA"
+    }
+  ],
+  "resources": [
+    {
+      "_id": "gpu-a100",
+      "name": "GPU A100"
+    },
+    {
+      "_id": "gpu-rtx",
+      "name": "GPU RTX"
+    },
+    {
+      "_id": "gpu-h100",
+      "name": "GPU H100"
+    },
+    {
+      "_id": "gpu-ada",
+      "name": "GPU Ada"
+    }
+  ]
+}
