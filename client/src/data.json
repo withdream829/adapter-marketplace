@@ -5,12 +5,12 @@
       "name": "OpenLLaMA-3b-v2"
     },
     {
-      "_id": "openllama-3b-v2-2",
-      "name": "OpenLLaMA-3b-v2"
+      "_id": "bert",
+      "name": "BERT"
     },
     {
-      "_id": "openllama-3b-v2-3",
-      "name": "OpenLLaMA-3b-v2"
+      "_id": "gpt-3",
+      "name": "GPT-3"
     },
     {
       "_id": "openllama-3b-v2-4",
