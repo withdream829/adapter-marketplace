@@ -13,24 +13,32 @@
       "name": "GPT-3"
     },
     {
-      "_id": "openllama-3b-v2-4",
-      "name": "OpenLLaMA-3b-v2"
+      "_id": "t5",
+      "name": "T5"
     },
     {
-      "_id": "openllama-3b-v2-5",
-      "name": "OpenLLaMA-3b-v2"
+      "_id": "xlnet",
+      "name": "XLNet"
     },
     {
-      "_id": "openllama-3b-v2-6",
-      "name": "OpenLLaMA-3b-v2"
+      "_id": "transformer-xl",
+      "name": "Transformer-XL"
     },
     {
-      "_id": "openllama-3b-v2-7",
-      "name": "OpenLLaMA-3b-v2"
+      "_id": "bart",
+      "name": "BART"
     },
     {
-      "_id": "openllama-3b-v2-8",
-      "name": "OpenLLaMA-3b-v2"
+      "_id": "electra",
+      "name": "ELECTRA"
+    },
+    {
+      "_id": "albert",
+      "name": "ALBERT"
+    },
+    {
+      "_id": "deberta",
+      "name": "DeBERTa"
     }
   ],
   "methods": [
