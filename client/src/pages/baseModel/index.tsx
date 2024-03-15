@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       return;
     }
     if (selectedMethod === "") {
-      toast.error("You have to select fine-turning method!");
+      toast.error("You have to select fine-tuning method!");
       return;
     }
 

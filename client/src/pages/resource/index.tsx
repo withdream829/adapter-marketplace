@@ -56,12 +56,12 @@ const Home: React.FC = () => {
     }
 
     dispatch(setFineTurned(true));
-    toast.success("Model is fine-turned successfully!");
+    toast.success("Model is fine-tuned successfully!");
   };
 
   const mergeAdapter = () => {
     if (fineTurnedState === false) {
-      toast.error("You have to fine-turn model first!");
+      toast.error("You have to fine-tune model first!");
       return;
     }
 
@@ -141,7 +141,7 @@ const Home: React.FC = () => {
                 onClick={() => navigate("/select-model")}
               />
               <h1 className="text-3xl">
-                Select Resource and Start Fine-Turning
+                Select Resource and Start Fine-Tuning
               </h1>
               {user?.subscribed ? (
                 <div />
@@ -178,7 +178,7 @@ const Home: React.FC = () => {
               <Col lg={24} xl={12}>
                 <div className="w-full flex gap-2">
                   <span className="leading-[44px] w-40">
-                    Fine-Turning Method:
+                    Fine-Tuning Method:
                   </span>
                   <div className="bg-gray-300 px-4 py-2 text-lg rounded-lg cursor-pointer hover:opacity-80 hover:shadow-xl">
                     {
@@ -205,7 +205,7 @@ const Home: React.FC = () => {
                   className="w-full h-full bg-gray-300 px-4 py-2 text-lg rounded-lg cursor-pointer outline-none ring-1 ring-gray-400 focus:ring-gray-500 hover:opacity-80 hover:shadow-xl"
                   onClick={startFineTurn}
                 >
-                  Fine-Turn the Model
+                  Fine-Tune the Model
                 </button>
               </Col>
               <Col xs={24} md={8}>
@@ -258,7 +258,7 @@ const Home: React.FC = () => {
           </Col>
           <Col xs={24} className="border-b">
             <div className="w-full p-8 flex flex-col gap-4">
-              <h2 className="text-xl">Test the fine-turned model</h2>
+              <h2 className="text-xl">Test the fine-tuned model</h2>
               <div className="w-full flex flex-col">
                 <div className="w-full relative">
                   <textarea
@@ -318,6 +318,13 @@ const Home: React.FC = () => {
                       </div>
                     ))}
                 </div>
+                <button
+                  type="button"
+                  className="w-full h-full bg-gray-300 px-4 py-2 text-lg rounded-lg cursor-pointer outline-none ring-1 ring-gray-400 focus:ring-gray-500 hover:opacity-80 hover:shadow-xl"
+                  
+                >
+                  Clear Chat History
+                </button>
               </div>
             </div>
           </Col>
